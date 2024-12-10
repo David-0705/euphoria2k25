@@ -16,6 +16,9 @@ function Navbar() {
       <Toolbar sx={{ justifyContent: 'space-between' }}>
         {/* Navbar with menu icon */}
         <div className="navbar">
+          <span className="logo">
+            <img className="logo-img" src="https://upload.wikimedia.org/wikipedia/commons/7/75/Eo_circle_green_letter-e.svg"></img>
+          </span>
           <span className="menu-icon" onClick={openNav}>
             &#9776; 
           </span>
@@ -30,6 +33,9 @@ function Navbar() {
             &times;
           </a>
           <div className="overlay-content">
+          <span className="logo">
+            <img className="logo-img" src="https://upload.wikimedia.org/wikipedia/commons/7/75/Eo_circle_green_letter-e.svg"></img>
+          </span>
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>

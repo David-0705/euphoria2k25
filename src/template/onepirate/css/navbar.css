@@ -10,18 +10,41 @@ body {
     width: 100%;
     overflow: hidden;
     z-index: 1000;
-    
   }
   
   .navbar .menu-icon {
-    font-size: 30px;
+    font-size: 35px;
     cursor: pointer;
     color: white;
-    padding: 10px 20px;
-    margin-right: 10px;
+    padding: 10px 30px;
     float: right;
   }
+
+  .navbar .logo {
+    display: inline-block;
+    float: left;
+  }
   
+  /* Logo image styles */
+  .navbar .logo-img {
+    padding-top: 10px;
+    height: 50px;
+    width: 50px;
+    display: block;
+  }
+
+  .overlay-content .logo-img {
+    padding-top: 10px;
+    height: 60px;
+    width: 60px;
+    transition: all 0.3s ease;
+  }
+
+  .overlay-content .logo-img:hover{
+    height: 70px;
+    width: 70px;
+  }
+
   .navbar .menu-icon:hover {
     background-color: #444;
   }
@@ -43,6 +66,8 @@ body {
     top: 20%;
     width: 100%;
     text-align: center;
+    justify-content: center; 
+    align-items: center; 
   }
   
   .overlay a {
@@ -57,6 +82,7 @@ body {
   .overlay a:hover,
   .overlay a:focus {
     color: #f1f1f1;
+    font-size: 40px;
   }
   
   .overlay .closebtn {
