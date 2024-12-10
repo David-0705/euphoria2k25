@@ -3,8 +3,6 @@ import Button from '../components/Button';
 import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
 import bkg from '../../assets/dummpPlaceholder.png'
-const backgroundImage =
-  '../../../onepirate/assets/dummpPlaceholder.png';
 
 export default function ProductHero() {
   return (

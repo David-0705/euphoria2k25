@@ -1,9 +1,10 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import { styled } from '@mui/material/styles';
-
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
+import wonder from '../../assets/productHeroWonder.png'
+import arrow from '../../assets/productHeroArrowDown.png';
 
 const ProductHeroLayoutRoot = styled('section')(({ theme }) => ({
   color: theme.palette.common.white,
@@ -43,7 +44,7 @@ function ProductHeroLayout(props) {
         }}
       >
         <img
-          src="/static/themes/onepirate/productHeroWonder.png"
+          src={wonder}
           alt="wonder"
           width="147"
           height="80"
@@ -64,7 +65,7 @@ function ProductHeroLayout(props) {
         <Background sx={sxBackground} />
         <Box
           component="img"
-          src="/static/themes/onepirate/productHeroArrowDown.png"
+          src={arrow}
           alt="arrow down"
           sx={{ height: '16', width: '12', position: 'absolute', bottom: 32 }}
         />
