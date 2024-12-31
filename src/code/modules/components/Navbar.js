@@ -4,6 +4,7 @@ import "../../css/navbar.css"; // Optional: external CSS for styling
 // import AppBar from "../components/AppBar";
 import AppBar from '@mui/material/AppBar';
 import Toolbar from "../components/Toolbar";
+import Events from './events';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,11 +58,11 @@ function Navbar() {
               <Link to="/home" onClick={closeNav}>
                 Home
               </Link>
-              <Link to="/about" onClick={closeNav}>
-                About
+              <Link to="/events" onClick={closeNav}>
+                Events
               </Link>
-              <Link to="/services" onClick={closeNav}>
-                Services
+              <Link to="/points" onClick={closeNav}>
+                Points
               </Link>
               <Link to="/portfolio" onClick={closeNav}>
                 Portfolio

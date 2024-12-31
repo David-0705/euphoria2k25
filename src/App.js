@@ -3,8 +3,8 @@ import '../src/code/css/App.css';
 import Home from './code/pages/Home';
 import Navbar from '../src/code/modules/components/Navbar';
 import { Routes, Route } from "react-router-dom";
-import SignUp from '../src/code/pages/SignUp';
-
+import Points from './code/modules/components/points';
+import Events from './code/modules/components/events';
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} /> 
-        {/* <Route path="/about" element={} /> */}
+        <Route path="/events" element={<Events/>} />
+        <Route path="/points" element={<Points/>} />
       </Routes>
     
     </div>
