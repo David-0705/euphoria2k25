@@ -1,9 +1,9 @@
 import logo from './logo.svg';
-import '../src/template/onepirate/css/App.css';
-import Home from './template/onepirate/pages/Home';
-import Navbar from '../src/template/onepirate/modules/components/Navbar';
+import '../src/code/css/App.css';
+import Home from './code/pages/Home';
+import Navbar from '../src/code/modules/components/Navbar';
 import { Routes, Route } from "react-router-dom";
-import SignUp from '../src/template/onepirate/pages/SignUp';
+import SignUp from '../src/code/pages/SignUp';
 
 
 function App() {

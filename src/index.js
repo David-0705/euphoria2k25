@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../src/template/onepirate/css/index.css';
+import '../src/code/css/index.css';
 import App from './App';
-import reportWebVitals from './template/Vitals/reportWebVitals';
-import { sendToVercelAnalytics } from './template/Vitals/vitals';
+import reportWebVitals from './Vitals/reportWebVitals';
+import { sendToVercelAnalytics } from './Vitals/vitals';
 import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
