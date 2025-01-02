@@ -3,7 +3,7 @@ import '../src/code/css/App.css';
 import Home from './code/pages/Home';
 import Navbar from '../src/code/modules/components/Navbar';
 import { Routes, Route } from "react-router-dom";
-import Points from './code/modules/components/points';
+import Points from './code/modules/components/points/points';
 import Events from './code/modules/components/events';
 
 function App() {
